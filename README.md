@@ -1,5 +1,8 @@
 # zhihuspider
 此项目的功能是爬取知乎热榜50条和评论，爬虫框架使用scrapy，数据存储使用mongo，可以下载下来做舆情分析  
+# 说明
+知乎爬取需要登录账号，本项目为了简便使用了cookie，将zhihu.py文件中的cookie更换成自己的cookie，注意使用字典形式
+
 # 安装
 git clone https://github.com/yaozp2n/zhihuspider.git 
 所需运行环境,请看 ./requirements.txt  
