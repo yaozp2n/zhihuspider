@@ -23,7 +23,7 @@ class RandomUserAgentMiddleware:
         request.headers['User-Agent'] = random.choice(self.user_agents)
 
 class ProxyMiddleware:
-    proxypool_url = 'http://114.116.2.197:5555/random'
+    proxypool_url = 'http://localhost:port'
     logger = logging.getLogger('middlewares.proxy')
 
     async def process_request(self, request, spider):
